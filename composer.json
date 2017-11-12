@@ -1,0 +1,25 @@
+{
+    "name": "fiisoft/functional",
+    "type": "library",
+    "description": "Some stuff from the world of functional programming.",
+    "keywords": ["functional programming", "optional"],
+    "homepage": "https://github.com/fiiSoft/fiisoft-functional",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "FiiSoft",
+            "email": "fiisoft.production@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "FiiSoft\\Test\\Functional\\": "tests/",
+            "FiiSoft\\Functional\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.6.0"
+    }
+}
